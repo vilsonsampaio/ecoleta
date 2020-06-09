@@ -1,0 +1,96 @@
+#modal {
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #0E0A14ef;
+
+  transition: 400ms;
+}
+
+#modal.hide {
+  display: none;
+}
+
+#modal .content {
+  width: 420px;
+  color: white;
+}
+
+#modal .content .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 48px;
+}
+
+#modal .content .header h1 {
+  color: white;
+
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#modal .content .header a {
+  display: flex;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url(../assets/icones/x.svg);
+
+  font-size: 0.01px; /* Para sumir o texto */
+}
+
+#modal .content form label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 18px;
+  line-height: 16px;
+}
+
+#modal .content form .field {
+  display: flex;
+}
+
+#modal .content form .field input {
+  flex: 1;
+
+  padding: 16px 24px;
+  
+  background-color: var(--background);
+  color: var(--textos);
+
+  font-size: 16px;
+
+  border-radius: 8px 0 0 8px;
+  border: 0;
+  outline: none;
+}
+
+#modal .content form .field button {
+  width: 72px;
+  height: 72px;
+  
+  background-color: var(--greenpeace);
+  border-radius: 0 8px 8px 0;
+
+  cursor: pointer;
+  border: 0;
+  outline: none;
+
+  transition: 400ms;
+}
+
+#modal .content form .field button:hover {
+  background-color: #2fb85e;
+}
