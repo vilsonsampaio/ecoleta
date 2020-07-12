@@ -101,8 +101,7 @@ function handleSelectedItem(event) {
     selectedItems.push(itemId)
   }
 
-  
-  // Atualiza o campo escondido com os dados
+  // Atualiza o input escondido com os dados
   collectedItems.value = selectedItems;
 }
 
