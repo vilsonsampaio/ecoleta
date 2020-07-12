@@ -8,6 +8,7 @@ buttonSearch.addEventListener("click", (event) => {
 
 const close = document.querySelector("#modal .header a");
 
-close.addEventListener('click', () => {
+close.addEventListener('click', (event) => {
+  event.preventDefault();
   modal.classList.add('hide');
 })
