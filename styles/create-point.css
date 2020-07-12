@@ -155,6 +155,8 @@
 
   cursor: pointer;
   list-style: none;
+
+  transition: 400ms;
 }
 
 .items-grid li.selected {
