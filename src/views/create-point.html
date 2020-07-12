@@ -121,11 +121,13 @@
 {% endblock content %}
 
 {% block modal %}
-  {% if saved %}
+  {% if saved == 'cadastrado' %}
     {% include 'partials/point-created.html' %}
-  {# {% else %} #}
-    {# {% include 'partials/point-error.html' %} #}
   {% endif %}
+  {% if saved == 'erro' %}
+    {% include 'partials/point-error.html' %}
+  {% endif %}
+
 {% endblock modal %}
 
 {% block scripts %}

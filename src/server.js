@@ -63,13 +63,13 @@ server.post('/savepoint', (req, res) => {
   function afterInsertData(err) {
     if (err) {
       console.log(err);
-      return res.render('create-point.html');
+      return res.render('create-point.html', { saved: 'erro' });
     }
     
     console.log("Cadastrado com sucesso");
     console.log(this);
 
-    return res.render('create-point.html', { saved: true });
+    return res.render('create-point.html', { saved: 'cadastrado' });
   }
 
   db.run(query, values, afterInsertData);
