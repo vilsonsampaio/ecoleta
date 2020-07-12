@@ -17,35 +17,38 @@
   {% include "partials/page-header.html" %}
   <main>
 
+    {% if total > 0 %}
     <h4>
-      <strong>2 pontos</strong>
-      encontrados
+        {# Buscando a variável total (vem pelo servidor) #}
+        {# Caso haja mais que 1 item, ele adiciona o s #}
+      <strong>
+        {{ total }} ponto{% if total > 1 %}s{% endif %}
+      </strong>
+
+      {# Caso haja mais que 1 item, ele adiciona o s #}
+      encontrado{% if total > 1 %}s{% endif %}
     </h4>
 
     <div class="cards">
-      <div class="card">
-        <img src="./assets/img/alfonso-navarro-qph7tJfcDys-unsplash.jpg" alt="Colectoria">
-        <h1>Colectoria</h1>
-        <h3>Resíduos Eletrônicos, Lâmpadas</h3>
-        <p>
-          Rio do Sul, Santa Catarina
-          <br/>
-          Guilherme Gemballa, Jardim América<br/>
-          Nº 260
-        </p>
-      </div>
-      <div class="card">
-        <img src="./assets/img/michael-jin-ET6_fDwZj2U-unsplash.jpg" alt="Papersider">
-        <h1>Papersider</h1>
-        <h3>Papéis e Papelão</h3>
-        <p>
-          Rio do Sul, Santa Catarina
-          <br/>
-          Guilherme Gemballa, Jardim América<br/>
-          Nº 260
-        </p>
-      </div>
+
+      {% for place in places %}
+        <div class="card">
+          <img src="{{ place.image }}" alt="{{ place.name }}">
+          <h1>{{ place.name }}</h1>
+          <h3>{{ place.items }}</h3>
+          <p>
+            {{ place.city }}, {{ place.state }}
+            <br/>
+            {{ place.address }}<br/>
+            {{ place.address2 }}
+          </p>
+        </div>
+      {% endfor %}
+
     </div>
+    {% else %}
+      <h4><strong>Nenhum ponto encontrado</strong></h4>
+    {% endif %}
 
   </main>
 {% endblock content %}
