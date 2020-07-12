@@ -81,6 +81,8 @@
 #page-create-point form select {
   padding: 16px 24px;
 
+  width: 100%;
+  
   background-color: var(--background);
   
   font-size: 16px;
