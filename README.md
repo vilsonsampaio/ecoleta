@@ -1,19 +1,26 @@
 <h1 align="center">
     <img alt="Ecoleta" title="Ecoleta" src=".github/ecoleta.svg" width="220px" />
 </h1>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vilsonsampaio/ecoleta.svg?color=34cb79">
+   
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/vilsonsampaio/ecoleta.svg?color=34cb79">
+
+  <a href="https://github.com/vilsonsampaio/ecoleta/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilsonsampaio/ecoleta.svg?color=34cb79">
+  </a>
+
+  <a href="https://github.com/vilsonsampaio/">
+    <img alt="Author" src="https://img.shields.io/badge/author-Vilson%20Sampaio-34cb79">
+  </a>
+</p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
-</p>
-
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
-
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
 </p>
 
 <br>
@@ -61,5 +68,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 <h4 align="center">
-    Feito com 💜 <a href="https://www.linkedin.com/in/vilsonsampaio/" target="_blank">Vilson Sampaio</a>
+    Feito com 💚 <a href="https://www.linkedin.com/in/vilsonsampaio/" target="_blank">Vilson Sampaio</a>
 </h4>
