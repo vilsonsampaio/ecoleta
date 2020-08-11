@@ -59,11 +59,7 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 ## :mortar_board: Quem ministrou?
 
-As aulas foram ministradas pelo mestre **[Mayk Brito](https://github.com/maykbrito)** nas aulas da **Next Level Week**.
-
-## :memo: License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+As aulas foram ministradas pelo mestre **[Mayk Brito](https://github.com/maykbrito)** na **Next Level Week #01**.
 
 ---
 
